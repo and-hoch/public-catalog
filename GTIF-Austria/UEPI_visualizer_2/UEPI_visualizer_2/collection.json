@@ -25,6 +25,9 @@
       "title": "Urban energy performance monitor"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-04-Urban-Energy-Performance-Monitor/Energy-performance-of-buildings-hero-1749975057844.jpg",
   "themes": [
     "Sustainable Cities",
@@ -65,6 +68,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14805,
       "roles": [
         "collection-mirror"
       ]

@@ -23,6 +23,9 @@
       "providers": [
         "Fraunhofer IIS"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg"
+      ],
       "collection_group": "Sustainable Cities"
     },
     {
@@ -74,12 +77,6 @@
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          9.489274390469427,
-          45.934319198418606,
-          17.366799269340135,
-          49.61178781509044
-        ],
         [
           9.489274390469427,
           45.934319198418606,

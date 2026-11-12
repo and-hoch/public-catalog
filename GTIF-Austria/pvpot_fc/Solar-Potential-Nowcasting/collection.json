@@ -25,6 +25,9 @@
       "title": "Nowcasting of theoretical PV potential"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring-2/assets/triebnigg/solar-potential-1749907032353.webp",
   "endpointtype": "COG source",
   "title": "Theoretical Solar Potential (Run 1)",
@@ -60,6 +63,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 33061,
       "roles": [
         "collection-mirror"
       ]

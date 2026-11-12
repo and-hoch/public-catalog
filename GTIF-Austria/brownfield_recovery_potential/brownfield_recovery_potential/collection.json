@@ -25,6 +25,9 @@
       "title": "Brownfield Recovery Potential"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/brownfield/assets/triebnigg/brownfieldcover-1749915393864.jpg",
   "themes": [
     "Sustainable Cities"
@@ -64,6 +67,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14993,
       "roles": [
         "collection-mirror"
       ]

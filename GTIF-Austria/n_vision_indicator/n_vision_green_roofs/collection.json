@@ -25,15 +25,9 @@
       "title": "Rooftop Characterisation"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
-  "themes": [
-    "sustainable-cities"
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
-  "tags": [
-    "Green Roofs",
-    "Solar Roofs"
-  ],
-  "collection_group": " ",
   "eox:colorlegend": {
     "title": "",
     "range": [
@@ -44,6 +38,15 @@
     ],
     "scaleType": "categorical"
   },
+  "thumbnail": "https://raw.githubusercontent.com/GTIF-Austria/public-narratives/refs/heads/main/assets/nvisionpublic/nvision-solar-panels-cover.webp",
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Green Roofs",
+    "Solar Roofs"
+  ],
+  "collection_group": " ",
   "endpointtype": "GeoJSON source",
   "title": "Green Roofs",
   "extent": {
@@ -78,6 +81,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14898,
       "roles": [
         "collection-mirror"
       ]

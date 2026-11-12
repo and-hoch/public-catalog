@@ -25,6 +25,9 @@
       "title": "Primary Heating System in Dwellings"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://workspace-ui-public.gtif-austria.hub-otc.eox.at/api/public/share/public-4wazei3y-02/WR-08-BMK-Energy-Dashboard-Integration/11/11-austrian_renewable_energy.png",
   "collection_group": "Energy Dashboard",
   "endpointtype": "GeoJSON source",
@@ -55,6 +58,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 15123,
       "roles": [
         "collection-mirror"
       ]

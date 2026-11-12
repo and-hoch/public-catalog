@@ -25,6 +25,9 @@
       "title": "Evapotranspiration Monitoring Demonstrator for Austria"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://raw.githubusercontent.com/triebnigg/public-narratives/triebnigg/evapotranspiration-monitoring/assets/triebnigg/evapotranspirationcover-1749285117579.png",
   "collection_group": "Carbon Accounting",
   "endpointtype": "COG source",
@@ -61,6 +64,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 39591,
       "roles": [
         "collection-mirror"
       ]
